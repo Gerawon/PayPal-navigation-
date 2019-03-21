@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px dotted red;
+}
+
+body{
+  width: 100%;
+  height: 1500px; 
+  background-color: #fff;
+}
+
+
+header{
+  height: 75px;
+  width: 100%;
+  background-color: rgb(51, 51, 51);
+}
+
+.containerCentered{
+  height: inherit;
+  width: 90%;
+  background-color: rgb(85, 85, 85);
+  margin: 0 auto;
+  font-family: Georgia, serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  height: 50px;
+  width: 170px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.header-personal{
+  height: inherit;
+  width: 170px;
+  margin: 0 auto;
+}
+
+ span {
+  color: white;
+  font-size: 20px;
+}
+
+span:after {
+
+  font-family: "FontAwesome";
+  content: "\f078";
+  font-size: 15px;
+}
+
+
+.header-buttons{
+  height: inherit;
+  width: 190px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-buttons-log, .header-buttons-sign{
+  width: 87px;
+  height: 40px;
+  font-size: 14px;
+  color: white;
+  background: none; 
+  border: 1px solid white;
+  border-radius: 25px;
+  font-family: Georgia, serif;
+
+}
+
+.header-buttons-log{
+  margin-right: 8px;
+}
+
+.header-buttons-sign{
+  color: rgb(44, 46, 47);
+  background-color: white;
+}
