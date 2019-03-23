@@ -2,62 +2,64 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px dotted red;
+  /* border: 1px dotted red; */
 }
-
 body{
   width: 100%;
   height: 1500px; 
-  background-color: #fff;
+  background-color: rgb(238, 238, 238);
 }
-
-
+/*header*//*header*//*header*//*header*//*header*//*header*//*header*/
 header{
   height: 75px;
   width: 100%;
-  background-color: rgb(51, 51, 51);
+  /* background-color: rgb(51, 51, 51); */
+  border-bottom: 1px solid whitesmoke;
 }
-
-.containerCentered{
+.headerContainerCentered, .underHeroContainerCenterd{
   height: inherit;
-  width: 90%;
-  background-color: rgb(85, 85, 85);
+  width: 65%;
+  /* background-color: rgb(85, 85, 85); */
   margin: 0 auto;
   font-family: Georgia, serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .logo{
   height: 50px;
   width: 170px;
+  margin-bottom: 7px;
 }
-
 .logo img {
   width: 100%;
   height: 100%;
 }
-
 .header-personal{
   height: inherit;
   width: 170px;
   margin: 0 auto;
 }
-
  span {
   color: white;
   font-size: 20px;
+  margin-top: 4px;
 }
-
 span:after {
-
   font-family: "FontAwesome";
   content: "\f078";
   font-size: 15px;
+  margin-left: 5px;
 }
-
-
+.personalContainer{
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+.personalContainer:hover{
+  margin-top: 4px;
+  border-bottom: 4px solid white;
+}
 .header-buttons{
   height: inherit;
   width: 190px;
@@ -66,7 +68,6 @@ span:after {
   align-items: center;
   justify-content: center;
 }
-
 .header-buttons-log, .header-buttons-sign{
   width: 87px;
   height: 40px;
@@ -76,9 +77,9 @@ span:after {
   border: 1px solid white;
   border-radius: 25px;
   font-family: Georgia, serif;
+  margin-top: 0px;
 
 }
-
 .header-buttons-log{
   margin-right: 8px;
 }
@@ -87,3 +88,91 @@ span:after {
   color: rgb(44, 46, 47);
   background-color: white;
 }
+/*header*/ /*header*/ /*header*/ /*header*/ /*header*/ /*header*/
+
+/*hero-section*/ /*hero-section*/ /*hero-section*/ /*hero-section*/
+.hero-section{
+  width: inherit;
+  height: 610px;
+  background-image: url(images/slide12_bg.jpg)
+}
+.heroContainerCentered{
+height: 540px;
+  width: 65%;
+  margin: 0 auto;
+}
+.heroContainerCenteredContent{
+  width: 60%;
+  margin: 0 auto;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heroContainerCenteredContent h2 {
+  font-size: 40px;
+  letter-spacing: 0.8px;
+  color: white;
+ font-weight: 500;
+ padding-bottom: 20px;
+ text-align: center;
+ margin-top: -50px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+  button{
+  height: 55px;
+  width: 350px;
+  border-radius: 25px;
+  font-size: 15px;
+  margin-top: 27px;
+  text-align: center;
+  color: white;
+  background-color:rgb(0, 112, 186);
+  font-weight: 1000;
+  align-self: center;
+}
+.heroContainerCenteredContent button:hover{
+  background-color:rgb(0, 85, 141)
+}
+.heroContainerCentered p {
+  text-align: center;
+  color:white;
+  padding-top: 20px;
+}
+.heroContainerCentered p a{
+  color: white;
+  text-decoration: none;
+}
+.heroContainerCentered p a:hover {
+  text-decoration: underline;
+}
+/*under hero*/ /*under hero*/ /*under hero*/ /*under hero*/ /*under hero*/
+.underHeroContainerCenterd{
+  flex-direction: column;
+}
+.underHeroContainerCenterd h2 {
+font-size: 40px;
+font-weight: 500;
+color:  rgb(44, 46, 47);
+margin-top: 60px;
+}
+.underHeroContainerCenterd img {
+  height: 100px;
+  width: 100px;
+  color: aqua;
+  margin-top: 45px
+}
+.underHeroContainerCenterd h3 {
+font-size: 28px;
+margin-top: 10px;
+}
+.underHeroContainerCenterd p {
+  color: rgb(44, 46, 47);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+/*under hero*/ /*under hero*/ /*under hero*/ /*under hero*/ /*under hero*/
+
+/*hero-section*/ /*hero-section*/ /*hero-section*/ /*hero-section*/
